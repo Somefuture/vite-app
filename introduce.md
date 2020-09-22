@@ -23,4 +23,22 @@
       >Failed to load plugin '@typescript-eslint' declared in '.eslintrc.js': Cannot find module 'typescript'
 
   4. 真是一团糟，发现vue3有专门的eslint配置文档，所以决定删除相关文件，重新配置。感觉是个伤心的故事呢。
+
+  5. 删完了，开始！文档地址：[eslint-vue](https://eslint.vuejs.org/user-guide/#installation)
+
+  6. 使用npm下载，执行`npm install --save-dev eslint eslint-plugin-vue@next`
+
+  7. 本地创建一个.eslintrc.js 配置文件,如下
+
+      ```js
+      module.exports = {
+        extends: [
+          // 放置通用规则
+          'plugin:vue/vue3-recommended'
+        ],
+        rules: {} // 设置特色规则，可以覆盖通用规则
+      }
+      ```
+  
+  8. 增加eslint规则到.eslintrc.js文件中
   

@@ -10,9 +10,14 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "9.8.6",
+    "eslint": "^7.9.0",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "postcss": "^8.0.7",
+    "sass": "^1.26.11",
     "vite": "^1.0.0-rc.1"
   },
-  "description": "## 直接生成一个vite-app",
+  "description": "a vite-app",
   "main": "src/main.js",
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@
   "window.title": "${activeEditorMedium}${separator}${rootPath}",
   "workbench.iconTheme": "vscode-icons",
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "prettier",
   "editor.tabSize": 2,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
