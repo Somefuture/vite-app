@@ -1,0 +1,14 @@
+{
+  "explorer.confirmDelete": false,
+  "git.ignoreLimitWarning": true,
+  "window.title": "${activeEditorMedium}${separator}${rootPath}",
+  "workbench.iconTheme": "vscode-icons",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vite-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "vite": "^1.0.0-rc.1"
+  },
+  "description": "## 直接生成一个vite-app",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somefuture/vite-app.git"
+  },
+  "keywords": [
+    "vite-app"
+  ],
+  "author": "lynne.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somefuture/vite-app/issues"
+  },
+  "homepage": "https://github.com/Somefuture/vite-app#readme"
+}
